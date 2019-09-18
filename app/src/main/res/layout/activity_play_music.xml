@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		tools:context=".PlayMusicActivity">
+	
+	<include layout="@layout/nav_bar"/>
+	
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@mipmap/background"
+			android:orientation="vertical">
+		<LinearLayout
+				android:layout_width="270dp"
+				android:layout_height="370dp"
+				android:layout_marginTop="90dp"
+				android:orientation="vertical"
+				android:gravity="center_horizontal"
+				android:background="#ffffff"
+				android:layout_marginLeft="60dp">
+			<Button
+					android:id="@+id/music1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="15dp"
+					android:text="点击播放音乐一"/>
+			
+			<Button
+					android:id="@+id/music2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="点击播放音乐二"/>
+			
+			<Button
+					android:id="@+id/music3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="点击播放音乐三"/>
+			
+			<Button
+					android:id="@+id/music4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="点击播放音乐四"/>
+			
+			<Button
+					android:id="@+id/music5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="点击播放音乐五"/>
+			
+			<Button
+					android:id="@+id/music6"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="点击播放音乐六"/>
+			
+			<Button
+					android:id="@+id/music7"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:background="#FFFF33"
+					android:text="点击停止播放音乐"/>
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

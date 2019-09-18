@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:orientation="vertical"
+			  android:background="@mipmap/bg">
+	
+	<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="50dp"
+			android:layout_gravity="center"
+			android:src="@mipmap/logo"/>
+	
+	
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="20dp"
+			android:layout_marginRight="20dp"
+			android:orientation="horizontal">
+		<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@mipmap/phone"/>
+		<EditText
+				android:id="@+id/user_login"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="10dp"
+				android:hint="用户名"/>
+	</LinearLayout>
+	
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="20dp"
+			android:layout_marginRight="20dp"
+			android:layout_marginTop="10dp"
+			android:orientation="horizontal">
+		<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@mipmap/password"/>
+		<EditText
+				android:id="@+id/psw_login"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="10dp"
+				android:hint="密码"/>
+	</LinearLayout>
+	<Button
+			android:id="@+id/btn_login"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="20dp"
+			android:layout_marginRight="20dp"
+			android:text="登录"
+			android:textSize="20sp"
+			android:textColor="#000000"
+			android:background="#E6E6E6"
+			android:layout_marginTop="20dp"/>
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="20dp"
+			android:layout_marginRight="20dp"
+			android:layout_marginTop="20dp"
+			android:orientation="horizontal">
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16sp"
+				android:onClick="onForgetClick"
+				android:text="忘记密码？"/>
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16sp"
+				android:layout_marginLeft="170dp"
+				android:onClick="onRegisterClick"
+				android:text="立即注册"/>
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+	
+	<include layout="@layout/nav_bar"/>
+	
+	<ImageView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:adjustViewBounds="true"
+			android:src="@mipmap/babaybody"/>
+	
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+		<ImageView
+				android:layout_width="48dp"
+				android:layout_height="48dp"
+				android:src="@mipmap/babyface"/>
+		<TextView
+				android:id="@+id/baby_body_status_main"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:layout_marginLeft="10dp"
+				android:textColor="#000000"
+				android:textSize="18sp"
+				android:text="婴儿体温："/>
+		<TextView
+				android:id="@+id/baby_body_status"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:layout_marginLeft="10dp"
+				android:textColor="#000000"
+				android:textSize="18sp"/>
+	</LinearLayout>
+	
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+		<ImageView
+				android:id="@+id/babay_pee"
+				android:layout_width="48dp"
+				android:layout_height="48dp"
+				android:src="@mipmap/babypee"/>
+		<TextView
+				android:id="@+id/baby_body_pee_main"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="是否尿床："
+				android:layout_marginLeft="10dp"
+				android:textColor="#000000"
+				android:textSize="18sp"
+				android:layout_gravity="center_vertical"/>
+		<TextView
+				android:id="@+id/baby_body_pee"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:layout_marginLeft="10dp"
+				android:textColor="#000000"
+				android:textSize="18sp"/>
+	</LinearLayout>
+	
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+		<ImageView
+				android:layout_width="48dp"
+				android:layout_height="48dp"
+				android:src="@mipmap/car"/>
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="婴儿是否在车内："
+				android:layout_marginLeft="10dp"
+				android:textColor="#000000"
+				android:textSize="18sp"
+				android:layout_gravity="center_vertical"/>
+		<TextView
+				android:id="@+id/baby_body_car"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:layout_marginLeft="10dp"
+				android:textColor="#000000"
+				android:textSize="18sp"/>
+	</LinearLayout>
+	
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+		<ImageView
+				android:layout_width="48dp"
+				android:layout_height="48dp"
+				android:src="@mipmap/time"/>
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:layout_marginLeft="10dp"
+				android:textColor="#000000"
+				android:text="使用时长："
+				android:textSize="18sp"/>
+		
+		<TextView
+				android:id="@+id/baby_body_time"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:layout_marginLeft="10dp"
+				android:textColor="#000000"
+				android:textSize="18sp"/>
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:layout_marginLeft="10dp"
+				android:textColor="#000000"
+				android:textSize="18sp"
+				android:text="分钟"/>
+	</LinearLayout>
+
+</LinearLayout>
